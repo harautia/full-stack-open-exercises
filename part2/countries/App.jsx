@@ -17,7 +17,7 @@ const filteredCountries = search.trim() !== ''
   ) : [];
 
 // This defines the number of how many results are shown
-const ShowResults = filteredCountries.length > 0 && filteredCountries.length < 3
+const ShowResults = filteredCountries.length > 0 && filteredCountries.length < 10
 
 /*
 Effects let a component connect to and synchronize with external systems.
